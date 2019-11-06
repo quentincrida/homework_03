@@ -60,6 +60,8 @@ p users["Avril"][:pets][0][:species]
 p users["Erik"][:lottery_numbers].min
 p users["Avril"][:lottery_numbers].select { |num| num.even?}
 p users["Erik"][:lottery_numbers].push(7)
+p users["Erik"][:home_town] = "Edinburgh"
+p users["Erik"][:pets].push(:name =>"Fluffy",:species => "dog")
 
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
 # 2. Get Erik's hometown
