@@ -11,7 +11,11 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # 9. Reverse the positions of the stops in the array
 # 10. Print out all the stops using a for loop
 #
-stops.push("Edinburgh")
-stops.unshift("Glasgow Queen St")
-stops.insert(4,"Polmont")
+#stops.push("Edinburgh")
+#stops.unshift("Glasgow Queen St")
+#stops.insert(4,"Polmont")
+#p stops.index("Linlithgow")
+#stops.delete("Livingston")
+#p stops
+stops.delete_at(4)
 p stops
